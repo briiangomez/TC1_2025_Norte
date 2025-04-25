@@ -1,0 +1,6 @@
+C:\Users\briia\Documents\TC1 Norte 2025\Services\bin\Debug\Services.dll
+C:\Users\briia\Documents\TC1 Norte 2025\Services\bin\Debug\Services.pdb
+C:\Users\briia\Documents\TC1 Norte 2025\Services\obj\Debug\Services.csproj.AssemblyReference.cache
+C:\Users\briia\Documents\TC1 Norte 2025\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\briia\Documents\TC1 Norte 2025\Services\obj\Debug\Services.dll
+C:\Users\briia\Documents\TC1 Norte 2025\Services\obj\Debug\Services.pdb

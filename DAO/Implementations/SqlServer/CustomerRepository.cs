@@ -124,7 +124,7 @@ namespace DAO.Implementations.SqlServer
         {
             //Para Stored procedures se puede utilizar SELECT SCOPE_IDENTITY()
             object returnValue = SqlHelper.ExecuteScalar(InsertStatement, CommandType.Text,
-              new SqlParameter[] { new SqlParameter("@Name", entity.Name) });
+              new SqlParameter[] { new SqlParameter("@Name", entity.Name), new SqlParameter("@Code",entity.Code) });
 
             entity.IdCustomer = Guid.Parse(returnValue.ToString());
 

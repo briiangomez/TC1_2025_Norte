@@ -18,13 +18,13 @@ namespace Domain.Models
 
         public string Name { get; set; }
 
-        public CategoryEnum Category { get; set; }
-
         /// <summary>
         /// Constructor con todos los argumentos...
         /// </summary>
         /// <param name="code">Param 1</param>
         /// <param name="name">Param 2</param>
+        /// 
+
         public Customer(int code, string name)
         {
             Code = code;
@@ -33,6 +33,13 @@ namespace Domain.Models
         public Customer()
         {
             
+        }
+
+        public Customer(Guid idCustomer, int code, string name)
+        {
+            IdCustomer = idCustomer;
+            Code = code;
+            Name = name;
         }
     }
 }

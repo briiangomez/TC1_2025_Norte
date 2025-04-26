@@ -15,7 +15,10 @@ namespace UI
         static void Main(string[] args)
         {
             //Hoy tengo una implementación in memory de mi Dao
-            ICustomerRepository customerDao = new DAO.Implementations.Memory.CustomerRepository();
+            //ICustomerRepository customerDao = new DAO.Implementations.Memory.CustomerRepository();
+
+            //Llamo a la factory...
+            ICustomerRepository customerDao = Repository.GetCustomerInstance();
 
             Console.WriteLine("---------------------------------------------");
 
@@ -25,6 +28,8 @@ namespace UI
             }
 
             Console.WriteLine("---------------------------------------------");
+
+
 
             customerDao.Insert(new Customer(12, "Nuevo Producto"));
 

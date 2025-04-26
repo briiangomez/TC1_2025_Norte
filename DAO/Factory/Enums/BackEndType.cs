@@ -8,7 +8,7 @@ namespace DAO.Factory.Enums
 {
     internal enum BackendType
     {
-        Memory,
+        Memory = 1,
         SqlServer,
         MongoDb,
         MySql

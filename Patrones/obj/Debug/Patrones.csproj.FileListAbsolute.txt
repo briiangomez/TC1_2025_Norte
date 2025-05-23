@@ -1,0 +1,7 @@
+D:\Facultad\Colegio universitario\Prácticas Profesionalizantes III\DemoBase\DemoBase\Patrones\bin\Debug\Patrones.exe.config
+D:\Facultad\Colegio universitario\Prácticas Profesionalizantes III\DemoBase\DemoBase\Patrones\bin\Debug\Patrones.exe
+D:\Facultad\Colegio universitario\Prácticas Profesionalizantes III\DemoBase\DemoBase\Patrones\bin\Debug\Patrones.pdb
+D:\Facultad\Colegio universitario\Prácticas Profesionalizantes III\DemoBase\DemoBase\Patrones\obj\Debug\Patrones.csproj.AssemblyReference.cache
+D:\Facultad\Colegio universitario\Prácticas Profesionalizantes III\DemoBase\DemoBase\Patrones\obj\Debug\Patrones.csproj.CoreCompileInputs.cache
+D:\Facultad\Colegio universitario\Prácticas Profesionalizantes III\DemoBase\DemoBase\Patrones\obj\Debug\Patrones.exe
+D:\Facultad\Colegio universitario\Prácticas Profesionalizantes III\DemoBase\DemoBase\Patrones\obj\Debug\Patrones.pdb

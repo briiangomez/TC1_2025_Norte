@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35706.149
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI.csproj", "{6C401C74-D381-47F3-94A6-F1B4AABD9B94}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "..\BLL\BLL.csproj", "{645D4F0F-84D6-4380-917F-C1330FA63894}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{1B167909-9779-4F71-8E22-27A11952264E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones", "..\Patrones\Patrones.csproj", "{CCE33F41-FB0D-43F1-83D5-E6949DACBDD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,8 +41,15 @@ Global
 		{1B167909-9779-4F71-8E22-27A11952264E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B167909-9779-4F71-8E22-27A11952264E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B167909-9779-4F71-8E22-27A11952264E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCE33F41-FB0D-43F1-83D5-E6949DACBDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCE33F41-FB0D-43F1-83D5-E6949DACBDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCE33F41-FB0D-43F1-83D5-E6949DACBDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCE33F41-FB0D-43F1-83D5-E6949DACBDD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5706B4C-6D61-443B-8AF4-D14889CE011A}
 	EndGlobalSection
 EndGlobal

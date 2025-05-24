@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.35706.149
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UI", "UI.csproj", "{6C401C74-D381-47F3-94A6-F1B4AABD9B94}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "..\Services\Services.csproj", "{1B167909-9779-4F71-8E22-27A11952264E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patrones", "..\Patrones\Patrones.csproj", "{CCE33F41-FB0D-43F1-83D5-E6949DACBDD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoParcial", "..\DemoParcial\DemoParcial.csproj", "{FBB8A568-CE4D-4396-976C-44D13CD1DF96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{CCE33F41-FB0D-43F1-83D5-E6949DACBDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCE33F41-FB0D-43F1-83D5-E6949DACBDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCE33F41-FB0D-43F1-83D5-E6949DACBDD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBB8A568-CE4D-4396-976C-44D13CD1DF96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBB8A568-CE4D-4396-976C-44D13CD1DF96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBB8A568-CE4D-4396-976C-44D13CD1DF96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBB8A568-CE4D-4396-976C-44D13CD1DF96}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

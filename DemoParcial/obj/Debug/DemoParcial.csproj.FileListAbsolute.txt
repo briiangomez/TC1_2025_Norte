@@ -1,0 +1,7 @@
+C:\Users\briia\Documents\TC1 Norte 2025\DemoParcial\bin\Debug\DemoParcial.exe.config
+C:\Users\briia\Documents\TC1 Norte 2025\DemoParcial\bin\Debug\DemoParcial.exe
+C:\Users\briia\Documents\TC1 Norte 2025\DemoParcial\bin\Debug\DemoParcial.pdb
+C:\Users\briia\Documents\TC1 Norte 2025\DemoParcial\obj\Debug\DemoParcial.csproj.AssemblyReference.cache
+C:\Users\briia\Documents\TC1 Norte 2025\DemoParcial\obj\Debug\DemoParcial.csproj.CoreCompileInputs.cache
+C:\Users\briia\Documents\TC1 Norte 2025\DemoParcial\obj\Debug\DemoParcial.exe
+C:\Users\briia\Documents\TC1 Norte 2025\DemoParcial\obj\Debug\DemoParcial.pdb

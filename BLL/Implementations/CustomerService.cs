@@ -1,6 +1,7 @@
 ﻿using BLL.Contracts;
 using DAO.Factory;
 using Domain.Models;
+using Services.Facade.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,7 +27,17 @@ namespace BLL.Implementations
 
         public List<Customer> GetAll()
         {
-            return Repository.GetCustomerInstance().GetAll();
+            try
+            {   //throw new Exception("Testtt");    
+                return Repository.GetCustomerInstance().GetAll();
+                        
+
+            }
+            catch (Exception ex)
+            {
+                throw;
+            }
+
         }
 
         public Customer GetByCode(int code)

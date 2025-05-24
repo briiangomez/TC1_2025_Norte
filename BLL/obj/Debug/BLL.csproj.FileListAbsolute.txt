@@ -1,0 +1,13 @@
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\bin\Debug\BLL.dll
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\bin\Debug\BLL.pdb
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\bin\Debug\DAO.dll
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\bin\Debug\Domain.dll
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\bin\Debug\Services.dll
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\bin\Debug\DAO.pdb
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\bin\Debug\Domain.pdb
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\bin\Debug\Services.pdb
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\obj\Debug\BLL.csproj.Up2Date
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\obj\Debug\BLL.dll
+C:\Users\briia\Documents\TC1 Norte 2025\BLL\obj\Debug\BLL.pdb

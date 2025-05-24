@@ -1,5 +1,4 @@
 ﻿using Services.Domain.Exceptions;
-using Services.DomainModel.Exceptions;
 using System;
 using System.Collections.Generic;
 using System.Configuration;

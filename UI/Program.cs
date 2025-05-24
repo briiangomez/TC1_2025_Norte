@@ -1,7 +1,10 @@
-﻿using DAO.Contracts;
+﻿using BLL.Contracts;
+using BLL.Implementations;
+using DAO.Contracts;
 using DAO.Factory;
 using DAO.Implementations;
 using Domain.Models;
+using Services.Facade.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,20 +17,35 @@ namespace UI
     {
         static void Main(string[] args)
         {
+            ICustomerService customerDao = new CustomerService();
+
+            try
+            {
+
+
+                Console.WriteLine("---------------------------------------------");
+
+                foreach (var item in customerDao.GetAll())
+                {
+                    Console.WriteLine($"id: {item.IdCustomer}, code: {item.Code} - Name: {item.Name}");
+                }
+
+                Console.WriteLine("---------------------------------------------");
+
+                throw new Exception("Error en UI");
+            }
+            catch (Exception ex)
+            {
+                ex.Handle();
+            }
+
             //Hoy tengo una implementación in memory de mi Dao
             //ICustomerRepository customerDao = new DAO.Implementations.Memory.CustomerRepository();
 
             //Llamo a la factory...
-            ICustomerRepository customerDao = Repository.GetCustomerInstance();
+            //ICustomerRepository customerDao = Repository.GetCustomerInstance();
 
-            Console.WriteLine("---------------------------------------------");
-
-            foreach (var item in customerDao.GetAll())
-            {
-                Console.WriteLine($"id: {item.IdCustomer}, code: {item.Code} - Name: {item.Name}");
-            }
-
-            Console.WriteLine("---------------------------------------------");
+            
 
 
 

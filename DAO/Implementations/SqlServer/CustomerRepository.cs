@@ -2,6 +2,7 @@
 using DAO.Helpers;
 using DAO.Implementations.SqlServer.Adapters;
 using Domain.Models;
+using Services.Facade.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -76,21 +77,28 @@ namespace DAO.Implementations.SqlServer
         {
             List<Customer> listCustomers = new List<Customer>();
 
-            using (SqlDataReader reader = SqlHelper.ExecuteReader(SelectAllStatement,
-                                                    CommandType.Text,
-                                                    new SqlParameter[] { }))
+            try
             {
-
-                //Mientras tenga un registro para la lectura...avanzo
-                while (reader.Read())
+                using (SqlDataReader reader = SqlHelper.ExecuteReader(SelectAllStatement,
+                                                            CommandType.Text,
+                                                            new SqlParameter[] { }))
                 {
-                    //Leemos cada tupla de la tabla
-                    object[] data = new object[reader.FieldCount];
-                    reader.GetValues(data);
 
-                    Customer customer = CustomerAdapter.Current.Get(data);
-                    listCustomers.Add(customer);
+                    //Mientras tenga un registro para la lectura...avanzo
+                    while (reader.Read())
+                    {
+                        //Leemos cada tupla de la tabla
+                        object[] data = new object[reader.FieldCount];
+                        reader.GetValues(data);
+
+                        Customer customer = CustomerAdapter.Current.Get(data);
+                        listCustomers.Add(customer);
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                throw;
             }
 
             return listCustomers;

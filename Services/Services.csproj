@@ -54,7 +54,11 @@
     <Compile Include="Domain\Exceptions\WordNotFoundException.cs" />
     <Compile Include="Domain\Logging\LogEntry.cs" />
     <Compile Include="Domain\Logging\LogLevel.cs" />
+    <Compile Include="Domain\ServicesExceptions\BLLException.cs" />
+    <Compile Include="Domain\ServicesExceptions\DALException.cs" />
+    <Compile Include="Domain\ServicesExceptions\UIException.cs" />
     <Compile Include="Domain\User.cs" />
+    <Compile Include="Facade\Extensions\ExceptionExtension.cs" />
     <Compile Include="Facade\Extensions\IdiomaExtension.cs" />
     <Compile Include="Facade\LoggerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

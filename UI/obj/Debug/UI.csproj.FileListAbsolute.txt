@@ -1,0 +1,16 @@
+C:\Users\briia\Documents\TC1 Norte 2025\UI\bin\Debug\UI.exe.config
+C:\Users\briia\Documents\TC1 Norte 2025\UI\bin\Debug\UI.exe
+C:\Users\briia\Documents\TC1 Norte 2025\UI\bin\Debug\UI.pdb
+C:\Users\briia\Documents\TC1 Norte 2025\UI\bin\Debug\DAO.dll
+C:\Users\briia\Documents\TC1 Norte 2025\UI\bin\Debug\Domain.dll
+C:\Users\briia\Documents\TC1 Norte 2025\UI\bin\Debug\DAO.pdb
+C:\Users\briia\Documents\TC1 Norte 2025\UI\bin\Debug\Domain.pdb
+C:\Users\briia\Documents\TC1 Norte 2025\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\briia\Documents\TC1 Norte 2025\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\briia\Documents\TC1 Norte 2025\UI\obj\Debug\UI.csproj.Up2Date
+C:\Users\briia\Documents\TC1 Norte 2025\UI\obj\Debug\UI.exe
+C:\Users\briia\Documents\TC1 Norte 2025\UI\obj\Debug\UI.pdb
+C:\Users\briia\Documents\TC1 Norte 2025\UI\bin\Debug\Services.dll
+C:\Users\briia\Documents\TC1 Norte 2025\UI\bin\Debug\Services.pdb
+C:\Users\briia\Documents\TC1 Norte 2025\UI\bin\Debug\BLL.dll
+C:\Users\briia\Documents\TC1 Norte 2025\UI\bin\Debug\BLL.pdb

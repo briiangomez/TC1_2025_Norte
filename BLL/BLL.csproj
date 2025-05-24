@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessExceptions\ClienteMayorEdadException.cs" />
     <Compile Include="Contracts\ICustomerService.cs" />
     <Compile Include="Contracts\IGenericService.cs" />
     <Compile Include="Implementations\CustomerService.cs" />

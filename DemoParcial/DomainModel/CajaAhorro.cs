@@ -11,8 +11,9 @@ namespace DemoParcial.DomainModel
     {
         public string CBU { get; }
 
-        public CajaAhorro(string cbu)
+        public CajaAhorro(Guid id, string cbu)
         {
+            Id = id;
             CBU = cbu;
             Saldo = 0m;
         }

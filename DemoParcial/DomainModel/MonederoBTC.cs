@@ -11,8 +11,9 @@ namespace DemoParcial.DomainModel
     {
         public string Direccion { get; }
 
-        public MonederoBTC(string direccion)
+        public MonederoBTC(Guid id,string direccion)
         {
+            Id = id;
             Direccion = direccion;
             Saldo = 0m;
         }

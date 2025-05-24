@@ -1,4 +1,5 @@
-﻿using BLL.Contracts;
+﻿using BLL.BusinessExceptions;
+using BLL.Contracts;
 using DAO.Factory;
 using Domain.Models;
 using Services.Facade.Extensions;
@@ -28,10 +29,16 @@ namespace BLL.Implementations
         public List<Customer> GetAll()
         {
             try
-            {   //throw new Exception("Testtt");    
+            {
+                throw new ClienteMayorEdadException();
                 return Repository.GetCustomerInstance().GetAll();
-                        
 
+
+            }
+            catch (ClienteMayorEdadException ex)
+            {
+                ///aplica politica de excepciones
+                throw;
             }
             catch (Exception ex)
             {
